@@ -1,0 +1,68 @@
+/* Estilo básico para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0% 25%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+/* Estilo para los encabezados */
+h1, h2 {
+    color: #007BFF;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Estilo para el párrafo de resultados y mensajes */
+#resultadoSuma, #mensajeEdad, #saludo {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #032549;
+}
+
+/* Estilo para los encabezados de sección */
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
