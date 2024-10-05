@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi pagina</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <!-- Botón a la izquierda
+            <div class="nav-left">
+                <button onclick="goToIndex()">Regresar a Inicio</button>
+            </div> -->
+            
+            <!-- Menú de navegación a la derecha -->
+            <div class="nav-right">
+                <a href="/clase2/index.html">Inicio</a>
+                <a href="/clase2/informacion.html">Información personal</a>
+                <a href="#PasaTiempos">Pasa tiempos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <h1 class="pixelify-sans-italic">Página principal</h1>
+
+    <section id="contenido">
+        <h2>Bienvenido a mi sitio web</h2>
+        <p>La tecnología ha avanzado a pasos agigantados en las últimas décadas, transformando casi todos los aspectos de nuestra vida cotidiana.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi sitio web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function goToIndex() {
+            window.location.href = '/../index.html';
+        }
+    </script>
+
+</body>
+</html>

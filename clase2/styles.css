@@ -1,0 +1,85 @@
+:root {
+    --blue: #4a707a;
+    --alineacion: center;
+    --oscurito: #333;
+    --gris: #eceff1;
+}
+
+.pixelify-sans-italic {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: var(--gris);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;  
+}
+
+header {
+    background-color: var(--oscurito);
+    color: var(--blue);
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left button {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-left button:hover {
+    background-color: #35666d;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-right a:hover {
+    background-color: rgb(40, 37, 37);
+    border-radius: 5px;
+}
+
+h1 {
+    align-self: var(--alineacion);
+    color: var(--blue);
+    font-style: italic;
+}
+
+h2 {
+    align-self: var(--alineacion);
+}
+
+footer {
+    background-color: var(--oscurito);
+    color: #fff;
+    text-align: var(--alineacion);
+    padding: 20px 0;
+    width: 100%;
+}
